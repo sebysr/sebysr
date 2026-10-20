@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Sebastiano Manzella - IT Application Owner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef4ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.6" fill="#4f46e5" opacity="0.10"/>
+    </pattern>
+    <clipPath id="round">
+      <rect width="1200" height="320" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <circle cx="1090" cy="30" r="210" fill="#4f46e5" opacity="0.07"/>
+    <circle cx="1170" cy="300" r="160" fill="#06b6d4" opacity="0.09"/>
+
+    <text x="1150" y="290" text-anchor="end" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="210" font-weight="700" fill="#4f46e5" opacity="0.055" letter-spacing="-6">SM</text>
+
+    <rect x="72" y="88" width="8" height="136" rx="4" fill="url(#accent)"/>
+
+    <text x="112" y="140" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" fill="#0b1220" letter-spacing="-1.2">Sebastiano Manzella</text>
+
+    <text x="114" y="188" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#4338ca" letter-spacing="3.4">IT APPLICATION OWNER</text>
+
+    <text x="114" y="224" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#5b6b82">Milan, Italy — 10+ years turning business needs into working software</text>
+  </g>
+</svg>
